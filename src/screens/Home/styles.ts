@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     widt: "100%",
     flexDirection: "row",
     marginTop: 36,
-    marginBottom: 42
+    marginBottom: 42,
   },
   input: {
     flex: 1,
@@ -44,5 +44,10 @@ export const styles = StyleSheet.create({
     backgroundColor: "#31cf67",
     alignItems: "center",
     justifyContent: "center",
+  },
+  listEmptyText: {
+    color: "#FDFCFE",
+    fontSize: 14,
+    textAlign: "center",
   },
 });
